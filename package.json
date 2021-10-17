@@ -1,0 +1,27 @@
+{
+  "name": "text2components",
+  "version": "1.0.0",
+  "description": "Interpolate text with react components",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare" : "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baptistemontan/text2components.git"
+  },
+  "keywords": ["react"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baptistemontan/text2components/issues"
+  },
+  "homepage": "https://github.com/Baptistemontan/text2components#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "files": ["lib/**/*"]
+}
