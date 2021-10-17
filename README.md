@@ -1,5 +1,9 @@
 Interpolate text with react components !
 
+npm package link : https://www.npmjs.com/package/text2components
+
+run `npm install text2components` to install the package
+
 For exemple, imagine you have a text like this:
     `the sun is <b>bright</b>`
 but its just a text, and you want to highlight the word "bright" with a react component.
