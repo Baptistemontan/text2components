@@ -7,13 +7,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "prepare" : "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Baptistemontan/text2components.git"
   },
-  "keywords": ["react"],
+  "keywords": [
+    "react"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -21,7 +23,13 @@
   },
   "homepage": "https://github.com/Baptistemontan/text2components#readme",
   "devDependencies": {
+    "@types/react": "^17.0.30",
     "typescript": "^4.4.4"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }
