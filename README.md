@@ -33,7 +33,7 @@ text looking like this: `I have {{ count }} apples`
 
 you can set the value count like this:
 
-`<Interpolate test={text} values={{ count: 4 }} />`
+`<Interpolate text={text} values={{ count: 4 }} />`
 
 it will return `I have 4 apples`
 
